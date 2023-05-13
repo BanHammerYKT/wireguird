@@ -1,7 +1,7 @@
 # Maintainer: BanHammer  <no@e.mail>
 
 pkgname=wireguird
-pkgver=0.2
+pkgver=1.0.0
 pkgrel=1
 
 pkgdesc="Gtk gui client for Wireguard"
@@ -18,7 +18,7 @@ optdepends=()
 provides=(wireguird)
 conflicts=(wireguird)
 
-source=("${pkgname}-${pkgver}.deb::https://github.com/UnnoTed/wireguird/releases/download/v0.2.0/wireguird_amd64.deb")
+source=("${pkgname}-${pkgver}.deb::https://github.com/UnnoTed/wireguird/releases/download/v1.0.0/wireguird_amd64.deb")
 md5sums=("SKIP")
 
 prepare() {
